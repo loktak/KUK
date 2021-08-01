@@ -1,0 +1,14 @@
+.content-container {
+    margin: 0 auto;
+    padding: 2em;
+    box-sizing: border-box;
+    max-width: 2000px;
+    background-color: white;
+}
+
+@media(max-width: 767px) {
+    .content-container {
+        max-width: 550px;
+    }
+    
+}

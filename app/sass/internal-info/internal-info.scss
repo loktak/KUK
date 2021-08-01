@@ -1,0 +1,108 @@
+.internal-info__content-container {
+    padding: 2em 0;
+}
+.internal-info__title {
+    text-align: center;
+    font-size: 2.2em;
+    margin-top: 0;
+    padding: 0 2em;
+}
+
+
+.internal-info__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.internal-info__elmt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+    align-items: center;
+    box-sizing: border-box;
+    &:not(:last-child) {
+        margin-bottom: 2%;
+    }
+    &:nth-child(2n) .internal-info__title-description-container {
+        order: 1;
+    }
+    &:nth-child(2n) {
+        background-color: $sub-color-opa;
+    }
+}
+
+
+.internal-info__title-description-container {
+    width: 58%;
+    box-sizing: border-box;
+}
+
+.internal-info__sub-title {
+    color: $main-color;
+    margin-top: 0;
+}
+
+.inertal-info__description-list {
+    list-style: none;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.inernal-info__description-list-elmt {
+    padding-left: 2em;
+    position: relative;
+    color: $main-color;
+    font-weight: 500;
+    font-size: 1.3em;
+    &::before {
+        content: "";
+        width: 0.3em;
+        height: 0.3em;
+        background-color: $main-color;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        margin-top: -0.15em;
+        left: 1em;
+    }
+    &:not(:last-child) {
+        margin-bottom: 0.5em;
+    }
+}
+
+@media (max-width: 979px) {
+    .inernal-info__description-list-elmt {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 767px) {
+    .internal-info__elmt {
+        justify-content: center;
+        &:nth-child(2n) .internal-info__title-description-container {
+            order: 0;
+        }
+    }
+    .internal-info__title-description-container {
+        width: 100%;
+        margin-right: 0;
+    }
+    .internal-info__sub-title {
+        text-align: center;
+    }
+    .internal-info__description {
+        text-align: center;
+    }
+    .inertal-info__description-list {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 0;
+        font-size: 0.9em;
+    }
+}

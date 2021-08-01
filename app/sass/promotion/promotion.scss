@@ -1,0 +1,134 @@
+.promotion__content-container {
+    background: url(../img/promo.jpg) no-repeat 50% 10%;
+    background-size: cover;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 7em 2em;
+}
+
+.promotion__losung {
+    font-weight: 600;
+    margin: 0;
+    padding: 2em;
+    background-color: rgba(255, 255, 255, 0.758);
+    border-radius: 10px;
+    font-size: 1.6em;
+
+    width: 55%;
+}
+
+.promotion__utp {
+    display: block;
+    font-weight: 600;
+    color: $main-color;
+    font-size: 1.8em;
+    margin: 0.3em 0;
+}
+
+.promotion_get-price-link {
+    width: 30%;
+    box-sizing: border-box;
+    padding: 2em;
+    text-align: center;
+    background-color: $main-color;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    font-size: 1em;
+
+    text-decoration: none;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.533),
+    inset 1px 1px 1px 1px rgba(255, 255, 255, 0.533);
+    &:hover,
+    &:focus {
+        outline: none;
+        color: $sub-color;
+    }
+    &:active {
+        box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.533);
+        color: lightgrey;
+    }
+}
+
+.promotion__link-title {
+    display: block;
+    font-size: 2em;
+    margin-bottom: 0.4em;
+    font-weight: 500;
+}
+
+.promotion__download-icon {
+    fill: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1em;
+    width: 10%;
+}
+
+.promotion_get-price-link:hover .promotion__download-icon,
+.promotion_get-price-link:focus .promotion__download-icon {
+    fill: $sub-color;
+}
+
+.promotion_get-price-link:active .promotion__download-icon {
+    fill: lightgrey;
+}
+
+
+@media (max-width: 979px) {
+    .promotion__content-container {  
+        display: block;      
+    }
+    .promotion__losung {   
+        width: 90%;
+        text-align: center;
+        box-sizing: border-box;
+        margin: 0 auto;
+        margin-bottom: 2em;
+    }
+    .promotion_get-price-link {
+        display: block;
+        width: 70%;
+        position: relative;
+        text-align: center;
+
+        margin: 0 auto;
+        font-size: 1.1em;
+        text-align: left;
+        font-weight: 500;
+        padding-left: 5em;
+    }
+    .promotion__download-icon {
+        position: absolute;
+        width: 2em;
+        top: 50%;
+        margin-top: -1.2em;
+        left: 5%;
+    }
+    .promotion__link-title {
+        display: inline;
+        font-size: 1em;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 767px) {
+    .promotion__content-container {
+        padding: 3em 2em;
+    }
+    .promotion__losung {   
+        width: 100%;
+        font-size: 1.3em;
+    }
+    .promotion_get-price-link {
+        width: 100%;
+        text-align: center;
+    }
+    .promotion__download-icon {
+
+        left: 8%;
+    }
+}

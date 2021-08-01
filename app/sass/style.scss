@@ -1,0 +1,48 @@
+$main-color: #0176BC;
+$main-color-opa: #0177bcc9;
+$sub-color: #FCEE21;
+$sub-color-opa: #fced219c;
+body {
+	background-color: #0177bc5e;
+}
+
+.block-title {
+	text-align: center;
+	font-size: 1.8em;
+	font-weight: 500;
+	margin: 0 auto;
+	margin-bottom: 1em;
+}
+
+@import "font-size/font-size.scss";
+@import "content-container/content-container.scss";
+@import "page-header/page-header.scss";
+@import "social-buttons/social-buttons.scss";
+@import "promotion/promotion.scss";
+@import "advantages/advantages.scss";
+@import "application-sphere/application-sphere.scss";
+@import "news/news.scss";
+@import "staff/staff.scss";
+@import "contacts/contacts.scss";
+@import "representatives-list/representatives-list.scss";
+@import "faq/faq.scss";
+@import "blackout/blackout.scss";
+@import "site-form/site-form.scss";
+@import "site-navigation/site-navigation.scss";
+@import "internal-info/internal-info.scss";
+@import "special-materials/special-materials.scss";
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}
+
+.display-none {
+	display: none;
+}

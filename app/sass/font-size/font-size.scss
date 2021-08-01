@@ -1,0 +1,40 @@
+body {
+    font-size: 150%;
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+@media (max-width: 1699px) {
+    body {
+        font-size: 130%;
+    }
+}
+
+@media (max-width: 1439px) {
+    body {
+        font-size: 125%;
+    }
+}
+
+@media (max-width: 1279px) {
+    body {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 979px) {
+    body {
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 85%;
+    }
+}
+
+@media (max-width: 424px) {
+    body {
+        font-size: 60%;
+    }
+}

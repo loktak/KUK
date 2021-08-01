@@ -1,0 +1,104 @@
+.site-form {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    background-color: $main-color;
+    padding: 2em 3em;
+    box-sizing: border-box;
+    
+    top: 30%;
+    width: 40em;
+    left: 50%;
+    margin-left: -20em;
+}
+
+
+.site-form__title {
+ color: white;
+ font-size: 1.4em;
+}
+
+.site-form__form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.site-form__label {
+    width: 45%;
+    margin-bottom: 1.5em;
+}
+
+.site-form__input {
+    padding: 0.5em;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.site-form__submit {
+    padding: 0.5em 1em;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 70%;
+    background-color: $sub-color;
+    border-radius: 8px;
+}
+
+.close-button {
+    display: block;
+    width: 1.5em;
+    height: 1.5em;
+    
+    
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+
+    &::before,
+    &::after {
+        content: "";
+
+        width: 100%;
+        height: 5px;
+        background-color: $sub-color;
+
+        position: absolute;
+        top: 50%;
+        margin-top: -1.5px;
+        left: 0;
+    }
+    &::before {
+        transform: rotate(45deg);
+    }
+    &::after {
+        transform: rotate(-45deg);
+    }
+    &:hover::before,
+    &:focus::before,
+    &:hover::after,
+    &:focus::after {
+        background-color: red;
+    }
+    &:active::before,
+    &:active::after {
+        opacity: 0.8;
+    }
+}
+
+@media (max-width: 767px) {
+    .site-form {
+        width: 31em;
+        margin-left: -15.5em;
+    }
+    .site-form__label {
+        width: 48%;
+    }
+    .close-button {
+        &::before,
+        &::after {
+            height: 3px;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.special-materials__content-container {
+    padding: 0;
+}
+.special-materials__background {
+    background-color: $sub-color-opa;
+    padding: 2em;
+}
+
+
+
+
+.special-materials__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.special-materials__elmt {
+    padding: 0.2em 1em;
+    box-sizing: border-box;
+    width: 100%;
+    border-left: 1px solid black;
+    margin-bottom: 3.5%;
+    &:nth-child(2),
+    &:nth-child(7) {
+        width: 65.5%;
+    }
+    &:nth-child(6),
+    &:nth-child(7) {
+        margin-bottom: 0;
+    }
+}
+
+.special-materials__title {
+    margin-top: 0;
+}

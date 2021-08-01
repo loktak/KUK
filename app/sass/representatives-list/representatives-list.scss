@@ -1,0 +1,81 @@
+.representatives-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.representatives-list__elmt {
+    box-sizing: border-box;
+    padding: 0 2em;
+    width: 23%;
+    &:not(:last-child) {
+        border-right: 1px solid $main-color;
+    }
+}
+
+.representatives-list__staff,
+.representatives-list__phones,
+.representatives-list__mail {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.representatives-list__title {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 1em;
+    font-size: 1.3em;
+}
+
+.representatives-list__staff,
+.representatives-list__phones {
+    min-height: 4em;
+    margin-bottom: 1em;
+}
+
+.representatives-list__sub-list-title {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+
+.representatives-list__link {
+    text-decoration: none;
+    color: $main-color;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 0.3em;
+    &:hover,
+    &:focus {
+        outline: none;
+        text-decoration: underline;
+    }
+    &:active {
+        color: lightgray;
+    }
+}
+
+@media (max-width: 767px) {
+    .representatives-list__elmt {
+
+        padding: 0 2em;
+        width: 48%;
+        &:not(:last-child) {
+            border-right: none;      
+        }
+        &:nth-child(3),
+        &:first-child {
+            border-right: 1px solid $main-color;
+        }
+        &:nth-child(2),
+        &:first-child {
+            margin-bottom: 2em;
+        }
+    }
+}

@@ -1,0 +1,81 @@
+.faq__content-container {
+    background-color: $main-color;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.faq__list {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.faq__elmt {
+    &:not(:last-child) {
+        margin-bottom: 0.8em;
+    }
+}
+
+.faq__link {
+    text-decoration: none;
+    color: $sub-color;
+    &:hover,
+    &:focus {
+        outline: none;
+        text-decoration: underline;
+    }
+    &:active {
+        color: lightgray;
+    }
+}
+
+.faq__contacts-title {
+    font-size: 1em;
+    text-align: center;
+    color: white;
+}
+.faq__contacts {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white; 
+}
+
+.faq__contactst-elmt {
+    &:not(:last-child) {
+        margin-bottom: 0.8em;
+    }
+}
+
+.faq__contacts-link {
+    text-decoration: none;
+    color: white;
+    &:hover,
+    &:focus {
+        outline: none;
+        text-decoration: underline;
+    }
+    &:active {
+        color: lightgray;
+    }
+    &--callme {
+        text-transform: uppercase;
+        color: $sub-color;
+        font-weight: 500;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+    .faq__content-container {
+        display: block;
+    }
+    .faq__list {
+        text-align: center;
+        margin-bottom: 2em;
+    }
+}
