@@ -1,0 +1,223 @@
+.assortment__content-container {
+    padding-bottom: 0;
+    &--inner {
+        padding-top: 0;
+    }
+}
+.assortment__navigation-menu {
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.assortment__navigation-elmt {
+    margin-bottom: 1em;
+    &:not(:last-child) {
+        margin-right: 1em;
+    }
+}
+
+.assortment__navigation-link {
+    display: block;
+    padding: 1em 1.5em;
+
+    background-color: $main-color;
+    text-decoration: none;
+    color: white;
+    
+    border-radius: 30px;
+    &:hover,
+    &:focus {
+        
+        color: $sub-color;
+        outline: none;
+    }
+    &:active {
+        opacity: 0.7;
+    }
+    &--current {
+        background-color: $sub-color;
+        color: #434f61;
+    }
+    &--current:hover,
+    &--current:focus {
+        background-color: $sub-color;
+        color: #434f61;
+    }
+    &--sphere {
+        padding: 1em 1.5em;
+        font-size: 0.9em;
+    }
+}
+
+.assortment__list {
+    list-style: none;
+    margin: 0;
+    
+    padding: 0;
+    margin-top: 2em;
+    width: auto;
+    &--inner {
+        margin-top: 0;
+        
+    }
+}
+
+.assortment__list-elmt {
+    border-top: 1px solid $font-color;
+    border-bottom: 1px solid $font-color;
+    padding: 3em;
+    &--inner {
+        border-top: none;
+        padding: 3em 0;
+    }
+}
+
+
+.assortment__elmt-tile {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 300;
+    color: $main-color;
+
+    margin: 0 auto; 
+}
+
+.assortment__elmt-text {
+    text-align: center;
+}
+
+
+.assortment__inner-list {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.assortment__inner-elmt {
+    padding-left: 1em;
+    position: relative;
+    &:not(:last-child) {
+        margin-bottom: 0.5em;
+    }
+    &::before {
+        content: "";
+
+        width: 0.3em;
+        height: 0.3em;
+        background-color: $main-color;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        margin-top: -0.15em;
+        left: 0;
+    }
+}
+.assortment__elmt-temperature-regime {
+    background: url(../img/icons/time.svg) no-repeat 25% 50%,
+    url(../img/icons/temperature.svg) no-repeat 78% 50%;
+
+    background-size: 5em;
+}
+
+.assortment__elmt-sub-title {
+    text-align: center;
+    margin: 0.8em auto;
+}
+
+.assortment__temperature-regime {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.assortment__temperature-regime-elmt {
+    &:not(:last-child) {
+        margin-bottom: 0.5em;
+    }
+}
+
+.assortment__price-link {
+    display: block;
+    margin: 0 auto;
+    margin-top: 3em;
+    width: 25%;
+    text-align: center;
+    border-radius: 30px;
+    background-color: $main-color;
+    padding: 1em;
+
+    text-decoration: none;
+    color: white;
+    &:hover,
+    &:focus {
+        
+        color: $sub-color;
+        outline: none;
+    }
+    &:active {
+        opacity: 0.7;
+    }
+}
+
+@media (max-width: 979px) {
+    .assortment__elmt-temperature-regime {
+        background: url(../img/icons/time.svg) no-repeat 20% 50%,
+        url(../img/icons/temperature.svg) no-repeat 83% 50%;
+    
+        background-size: 5em;
+    }
+    .assortment__navigation-link {
+        
+        &--sphere {
+            padding: 1em 1.5em;
+            font-size: 0.8em;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .assortment__content-container {
+        padding-bottom: 1em;
+        &--inner {
+            padding-top: 0;
+        }
+    }
+    .assortment__navigation-menu {
+        display: block;
+    }
+    .assortment__navigation-elmt {
+        margin-bottom: 1em;
+        &:not(:last-child) {
+            margin-right: 0;
+        }
+    }
+    .assortment__navigation-link {
+       
+        text-align: center;
+        &--sphere {
+            
+            font-size: 1em;
+        }
+    }
+    .assortment__elmt-temperature-regime {
+        
+        background: none;
+    
+        background-size: 3em;
+    }
+    .assortment__price-link {
+        width: 50%;
+    }
+}

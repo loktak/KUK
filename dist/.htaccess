@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteBase /
+
+
+
+RewriteRule ^application-sphere/([^/\.]+)/?$ sphere.php?sphere=$1 [L]
+
+RewriteRule ^powder-paints/([^/\.]+)/?$ index.php?paints=$1 [L]

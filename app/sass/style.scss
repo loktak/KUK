@@ -2,6 +2,8 @@ $main-color: #0176BC;
 $main-color-opa: #0177bcc9;
 $sub-color: #FCEE21;
 $sub-color-opa: #fced219c;
+$font-color: #434f61;
+
 body {
 	background-color: #0177bc5e;
 }
@@ -12,6 +14,9 @@ body {
 	font-weight: 500;
 	margin: 0 auto;
 	margin-bottom: 1em;
+}
+a {
+	cursor: pointer;
 }
 
 @import "font-size/font-size.scss";
@@ -29,8 +34,9 @@ body {
 @import "blackout/blackout.scss";
 @import "site-form/site-form.scss";
 @import "site-navigation/site-navigation.scss";
-@import "internal-info/internal-info.scss";
-@import "special-materials/special-materials.scss";
+@import "assortment/assortment.scss";
+@import "inner-menu/inner-menu.scss";
+@import "cookie/cookie.scss";
 
 .visually-hidden {
 	position: absolute !important;

@@ -1,0 +1,10 @@
+.inner-menu__nav {
+    padding: 1em;
+    padding-top: 2em;
+}
+
+@media (max-width: 767px) {
+    .inner-menu__nav {
+        padding-bottom: 1em;
+    }
+}

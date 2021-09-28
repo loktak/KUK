@@ -23,20 +23,16 @@
     color: white;
     text-decoration: none;
     background-color: $main-color;
-    border: 1px solid $main-color;
-    border-radius: 10px;
+    border-radius: 30px;
     max-width: 350px;
 
     &:hover,
     &:focus {
+        
+        color: $sub-color;
         outline: none;
-        color: $main-color;
-        background-color: white;
     }
     &:active {
-        color: white;
-        border: 1px solid $main-color;
-        background-color: $main-color;
         opacity: 0.7;
     }
 }
@@ -54,7 +50,7 @@
     .news__content-container {
         
         padding-left: 10em;
-        background: white url(../img/icons/news-icon.svg) no-repeat 3em 50%;
+        background: #e2dfdf url(../img/icons/news-icon.svg) no-repeat 3em 50%;
         background-size: 4em auto;
     }
     .news-link {

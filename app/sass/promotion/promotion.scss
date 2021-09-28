@@ -7,6 +7,33 @@
     align-items: center;
 
     padding: 7em 2em;
+    &--inner {
+        padding: 15em 0;
+    }
+    &--architectural {
+        background: url(../img/spheres/2000/architectural.jpg) no-repeat 50% 85%;
+    background-size: cover;
+    }
+    &--industrial {
+        background: url(../img/spheres/2000/industrial.jpg) no-repeat 50% 85%;
+    background-size: cover;
+    }
+    &--automotive {
+        background: url(../img/spheres/2000/automotive.jpg) no-repeat 0% 100%;
+    background-size: cover;
+    }
+    &--interior {
+        background: url(../img/spheres/2000/interior.jpg) no-repeat 50% 85%;
+    background-size: cover;
+    }
+    &--decorative {
+        background: url(../img/spheres/2000/decorative.jpg) no-repeat 50% 85%;
+    background-size: cover;
+    }
+    &--sports-equipment {
+        background: url(../img/spheres/2000/sports-equipment.jpg) no-repeat 50%;
+    background-size: cover;
+    }
 }
 
 .promotion__losung {
@@ -18,6 +45,16 @@
     font-size: 1.6em;
 
     width: 55%;
+    &--inner {
+        width: 100%;
+        text-align: center;
+        background-color: $main-color;
+        border-radius: 0;
+        color: white;
+        font-weight: 500;
+        font-size: 2em;
+        padding: 0.5em;
+    }
 }
 
 .promotion__utp {
@@ -55,8 +92,8 @@
 
 .promotion__link-title {
     display: block;
-    font-size: 2em;
-    margin-bottom: 0.4em;
+    font-size: 1.7em;
+    
     font-weight: 500;
 }
 
@@ -77,10 +114,121 @@
     fill: lightgrey;
 }
 
+@media (max-width: 1599px) {
+    .promotion__content-container {
+        &--architectural {
+            background: url(../img/spheres/1600/architectural.jpg) no-repeat 50% 85%;
+        background-size: cover;
+        }
+        &--industrial {
+            background: url(../img/spheres/1600/industrial.jpg) no-repeat 50% 85%;
+        background-size: cover;
+        }
+        &--automotive {
+            background: url(../img/spheres/1600/automotive.jpg) no-repeat 0% 100%;
+        background-size: cover;
+        }
+        &--interior {
+            background: url(../img/spheres/1600/interior.jpg) no-repeat 50% 85%;
+        background-size: cover;
+        }
+        &--decorative {
+            background: url(../img/spheres/1600/decorative.jpg) no-repeat 50% 85%;
+        background-size: cover;
+        }
+        &--sports-equipment {
+            background: url(../img/spheres/1600/sports-equipment.jpg) no-repeat 50%;
+        background-size: cover;
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+    .promotion__content-container {
+        &--architectural {
+            background: url(../img/spheres/1400/architectural.jpg) no-repeat 50% 85%;
+        background-size: cover;
+        }
+        &--industrial {
+            background: url(../img/spheres/1400/industrial.jpg) no-repeat 50% 85%;
+        background-size: cover;
+        }
+        &--automotive {
+            background: url(../img/spheres/1400/automotive.jpg) no-repeat 0% 100%;
+        background-size: cover;
+        }
+        &--interior {
+            background: url(../img/spheres/1400/interior.jpg) no-repeat 50% 85%;
+        background-size: cover;
+        }
+        &--decorative {
+            background: url(../img/spheres/1400/decorative.jpg) no-repeat 50% 85%;
+        background-size: cover;
+        }
+        &--sports-equipment {
+            background: url(../img/spheres/1400/sports-equipment.jpg) no-repeat 50%;
+        background-size: cover;
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .promotion__content-container {
+        &--architectural {
+            background: url(../img/spheres/1200/architectural.jpg) no-repeat 50% 85%;
+        background-size: cover;
+        }
+        &--industrial {
+            background: url(../img/spheres/1200/industrial.jpg) no-repeat 50% 85%;
+        background-size: cover;
+        }
+        &--automotive {
+            background: url(../img/spheres/1200/automotive.jpg) no-repeat 0% 100%;
+        background-size: cover;
+        }
+        &--interior {
+            background: url(../img/spheres/1200/interior.jpg) no-repeat 50% 85%;
+        background-size: cover;
+        }
+        &--decorative {
+            background: url(../img/spheres/1200/decorative.jpg) no-repeat 50% 85%;
+        background-size: cover;
+        }
+        &--sports-equipment {
+            background: url(../img/spheres/1200/sports-equipment.jpg) no-repeat 50%;
+        background-size: cover;
+        }
+    }
+}
+
 
 @media (max-width: 979px) {
     .promotion__content-container {  
-        display: block;      
+        display: block;
+        &--architectural {
+            background: url(../img/spheres/980/architectural.jpg) no-repeat 50% 85%;
+        background-size: cover;
+        }
+        &--industrial {
+            background: url(../img/spheres/980/industrial.jpg) no-repeat 50% 85%;
+        background-size: cover;
+        }
+        &--automotive {
+            background: url(../img/spheres/980/automotive.jpg) no-repeat 0% 100%;
+        background-size: cover;
+        }
+        &--interior {
+            background: url(../img/spheres/980/interior.jpg) no-repeat 50% 85%;
+        background-size: cover;
+        }
+        &--decorative {
+            background: url(../img/spheres/980/decorative.jpg) no-repeat 50% 85%;
+        background-size: cover;
+        }
+        &--sports-equipment {
+            background: url(../img/spheres/980/sports-equipment.jpg) no-repeat 50%;
+        background-size: cover;
+        }      
     }
     .promotion__losung {   
         width: 90%;
@@ -88,6 +236,10 @@
         box-sizing: border-box;
         margin: 0 auto;
         margin-bottom: 2em;
+        &--inner {
+            margin-bottom: 0;
+            width: 100%;
+        }
     }
     .promotion_get-price-link {
         display: block;
@@ -97,9 +249,9 @@
 
         margin: 0 auto;
         font-size: 1.1em;
-        text-align: left;
+        
         font-weight: 500;
-        padding-left: 5em;
+        
     }
     .promotion__download-icon {
         position: absolute;
@@ -118,10 +270,45 @@
 @media (max-width: 767px) {
     .promotion__content-container {
         padding: 3em 2em;
+        &--inner {
+            padding: 0;
+            padding-top: 20em;
+        }
+        &--architectural {
+            background: url(../img/spheres/550/architectural.jpg) no-repeat 50% 85%;
+        background-size: cover;
+        }
+        &--industrial {
+            background: url(../img/spheres/550/industrial.jpg) no-repeat 50% 85%;
+        background-size: cover;
+        }
+        &--automotive {
+            background: url(../img/spheres/550/automotive.jpg) no-repeat 0% 100%;
+        background-size: cover;
+        }
+        &--interior {
+            background: url(../img/spheres/550/interior.jpg) no-repeat 50% 85%;
+        background-size: cover;
+        }
+        &--decorative {
+            background: url(../img/spheres/550/decorative.jpg) no-repeat 50% 85%;
+        background-size: cover;
+        }
+        &--sports-equipment {
+            background: url(../img/spheres/550/sports-equipment.jpg) no-repeat 0 100%;
+        background-size: cover;
+        }
     }
     .promotion__losung {   
         width: 100%;
         font-size: 1.3em;
+        &--inner {
+            margin-bottom: 0;
+            width: 100%;
+            padding: 1em;
+            font-size: 1.5em;
+            background-color: $main-color-opa;
+        }
     }
     .promotion_get-price-link {
         width: 100%;

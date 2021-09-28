@@ -21,18 +21,38 @@
 }
 
 .page-header__contacts-list {
+    list-style: none;
     margin: 0;
     padding: 0;
-    list-style: none;
-    text-align: right;
 
-    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .page-header__contacts-list-elmt {
     &:not(:last-child) {
-        margin-bottom: 0.5em;
+        margin-right: 2em;
     }
+    &--phone,
+    &--mail {
+        display: flex;
+        align-items: center;
+    }   
+}
+
+
+.page-header__contacts-list-icon {
+    &--mail {
+        width: 1.5em;
+        height: 1.5em;
+        margin-right: 0.5em;
+        background: url(../img/icons/mail.svg) no-repeat 50%;
+        background-size:contain;
+    }
+}
+.page-header__icon {
+    width: 100%;
 }
 
 .page-header__contacts-list-link {
@@ -49,7 +69,30 @@
         opacity: 0.8;
     }
     &--button {
-        text-transform: uppercase;
+        display: block;
+        background-color: #F1F0F5;
+        padding: 1em 2em;
+        color: $main-color;
+        font-size: 0.8em;
+        border-radius: 25px;
+    }
+    &--button:hover,
+    &--button:focus {
+        color: white;
+        background-color: $main-color;
+        text-decoration: none;
+    }
+    &--phone {
+        margin: 0 0.5em;
+    }
+    &--whatsapp {
+        display: block;
+        width: 2em;
+        margin-top: 0.2em;
+    }
+    &--mail {
+        display: flex;
+        align-items: center;
     }
 }
 
@@ -71,12 +114,61 @@
         margin: 0 auto;
         margin-bottom: 1em;
     }
-    .page-header__socials {
-        margin: 0 auto;
-    }
     .page-header__contacts-list {
         text-align: center;
-        
+        align-items: center;
+        justify-content: center;
+    }
+    .page-header__contacts-list-elmt {
+        &:not(:last-child) {
+            margin-right: 0;
+        }
+        &--phone {
+            
+            font-size: 1.2em;
+            justify-content: center;
+
+            margin-bottom: 1.5em;
+           
+        }
+        &--mail {
+            margin-bottom: 1.5em;
+            margin-left: 1em;
+        }
+        &:last-child {
+            margin-left: 1.5em;
+        }   
+    }
+    .page-header__contacts-list-link {
+        &--button {
+            display: block;
+            background-color: #F1F0F5;
+            padding: 1em 3em;
+            color: $main-color;
+            font-size: 1.1em;
+            border-radius: 25px;
+        }
+        &--whatsapp {
+            width: 2.5em;
+        }
+        &--phone { 
+            margin: 0;
+            margin-left: 1em;
+            margin-right: 1em;
+            font-size: 1em;
+        }
+    }
+    .page-header__contacts-list-icon {
+        &--mail {
+            width: 2.8em;
+            height: 2.8em;
+            margin-right: 0;
+            background: url(../img/icons/mail.svg) no-repeat 50% 25%;
+            background-size:contain;
+        }
+    }
+    .page-header__contacts-list-link-span {
+        display: none;
     }
 }
 

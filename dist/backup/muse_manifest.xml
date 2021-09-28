@@ -1,0 +1,159 @@
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="kraski.k-inver.ru" resolutions="1x" timestamp="1606837003409">
+  <folder name="css">
+    <file name="site_global.css" crc="98326516"/>
+    <file name="master_______-a.css" crc="290714039" ref="index:zakaz"/>
+    <file name="index.css" crc="3946262553" ref="index"/>
+    <file name="zakaz.css" crc="530331852" ref="zakaz"/>
+  </folder>
+  <folder name="assets">
+    <file name="2020_06_19_kraskinver_rasprodazha.pdf" crc="4202297113" seo="true" mt="1592747640000"/>
+    <file name="2020_07_08_kraskinver_rasprodazha.pdf" crc="4284916289" seo="true" mt="1594220748000"/>
+    <file name="2020_10_22_kraskinver_rasprodazha.pdf" crc="71497046" seo="true" mt="1603344267000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:zakaz"/>
+    <file name="museutils.js" crc="340535759" ref="index:zakaz"/>
+    <file name="whatinput.js" crc="86476730" ref="index:zakaz"/>
+    <file name="museconfig.js" crc="4286661555" ref="index:zakaz"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index:zakaz"/>
+    <file name="webpro.js" crc="4059564322" ref="index:zakaz"/>
+    <file name="form_check.php" crc="4020933626" ref="index"/>
+    <file name="form_throttle.php" crc="4259590256" ref="index"/>
+    <file name="form_process.php" crc="37464564" ref="index"/>
+    <file name="form-u6372.php" crc="432592367" ref="index"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="index:zakaz"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="index:zakaz"/>
+    <file name="touchswipe.js" crc="4075097462" ref="index:zakaz"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:zakaz"/>
+    <file name="form-u2504.php" crc="500030837" ref="index"/>
+    <file name="form-u871.php" crc="3799793781" ref="index"/>
+    <file name="form-u2295.php" crc="3872472735" ref="index"/>
+    <file name="form-u6572.php" crc="191420245" ref="index"/>
+    <file name="require.js" crc="7928878" ref="index:zakaz"/>
+    <file name="form-u4908.php" crc="95764533" ref="zakaz"/>
+  </folder>
+  <folder name="images">
+    <file name="logo.jpg" crc="4096281757" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="facebook-icon.png" crc="3878409186" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="instagramm-icon.png" crc="4140957466" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="youtube-icon.png" crc="3938150378" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="shapka.jpg" crc="4080656918" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1995_02.png" crc="27112574" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="900pozit_02_b-u5205-r-fr.png" crc="3789964739" ref="index"/>
+    <file name="900pozit_02-u3391-fr.png" crc="3820446697" ref="index"/>
+    <file name="dostavla_02-u5113-fr.png" crc="4022710856" ref="index"/>
+    <file name="dostavla_02_b-u5113-r-fr.png" crc="175596466" ref="index"/>
+    <file name="torg_02-u5161-fr.png" crc="236507549" ref="index"/>
+    <file name="torg_02_b-u5161-r-fr.png" crc="4167068373" ref="index"/>
+    <file name="standard320.jpg" crc="509265834" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="standart300.jpg" crc="105171682" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="premium320.jpg" crc="4216890987" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="premium300.jpg" crc="224502166" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="insta_banner.jpg" crc="56735439" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="target_02-u544-fr.png" crc="263614377" ref="index"/>
+    <file name="ukriv_02.png" crc="4261363323" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="eco_02-u546-fr.png" crc="181576065" ref="index"/>
+    <file name="napil_02-u547-fr.png" crc="4219984408" ref="index"/>
+    <file name="bonus.png" crc="208486557" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bc960.jpg" crc="463225199" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="sklad960.jpg" crc="3831528301" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="walle960.jpg" crc="4030945204" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="dom960.jpg" crc="267321942" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ploshadka960.jpg" crc="438440989" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="fonar960.jpg" crc="41266967" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="stul960.jpg" crc="388186572" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="news-u2528-fr.png" crc="99858176" ref="index"/>
+    <file name="zvonok_02-u1131-fr.png" crc="447139565" ref="index"/>
+    <file name="strekla_02.png" crc="4117988746" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="consalting_02-u1132-fr.png" crc="4101114667" ref="index"/>
+    <file name="zakaz.png" crc="324833780" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="dostavla2_02-u1134-fr.png" crc="174031318" ref="index"/>
+    <file name="speci960.jpg" crc="4089211403" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="harcenko.jpg" crc="4050001414" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="tolmacheva.jpg" crc="178738295" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="lukacheva.jpg" crc="3892451404" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="shubichev.jpg" crc="4275477641" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="checkboxunchecked.jpg" crc="495023700" ref="zakaz">
+      <caption webpage="zakaz" alt=""/>
+    </file>
+    <file name="checkboxuncheckedrollover.jpg" crc="4076496830" ref="zakaz">
+      <caption webpage="zakaz" alt=""/>
+    </file>
+    <file name="checkboxuncheckedmousedown.jpg" crc="361678653" ref="zakaz">
+      <caption webpage="zakaz" alt=""/>
+    </file>
+    <file name="checkboxchecked.jpg" crc="477278992" ref="zakaz">
+      <caption webpage="zakaz" alt=""/>
+    </file>
+    <file name="checkboxcheckedrollover.jpg" crc="435737969" ref="zakaz">
+      <caption webpage="zakaz" alt=""/>
+    </file>
+    <file name="checkboxcheckedmousedown.jpg" crc="4004261994" ref="zakaz">
+      <caption webpage="zakaz" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="3793371003" seo="true" mt="1606836960376" redirect="true"/>
+  <file name="zakaz.html" crc="4258942111" seo="true" mt="1606836960376" redirect="true"/>
+</manifest>

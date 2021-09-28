@@ -1,29 +1,30 @@
 body {
-    font-size: 150%;
+    font-size: 140%;
     font-family: 'Roboto', 'Arial', sans-serif;
+    color: $font-color;
 }
 
 @media (max-width: 1699px) {
-    body {
-        font-size: 130%;
-    }
-}
-
-@media (max-width: 1439px) {
     body {
         font-size: 125%;
     }
 }
 
+@media (max-width: 1439px) {
+    body {
+        font-size: 110%;
+    }
+}
+
 @media (max-width: 1279px) {
     body {
-        font-size: 90%;
+        font-size: 85%;
     }
 }
 
 @media (max-width: 979px) {
     body {
-        font-size: 80%;
+        font-size: 60%;
     }
 }
 

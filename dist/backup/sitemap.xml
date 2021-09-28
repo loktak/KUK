@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://kraski.k-inver.ru/index.html</loc>
+    <lastmod>2020-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://kraski.k-inver.ru/zakaz.html</loc>
+    <lastmod>2020-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://kraski.k-inver.ru/assets/2020_07_08_kraskinver_rasprodazha.pdf</loc>
+    <lastmod>2020-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://kraski.k-inver.ru/assets/2020_06_19_kraskinver_rasprodazha.pdf</loc>
+    <lastmod>2020-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://kraski.k-inver.ru/assets/2020_10_22_kraskinver_rasprodazha.pdf</loc>
+    <lastmod>2020-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>

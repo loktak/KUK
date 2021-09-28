@@ -1,0 +1,18 @@
+{
+    "name": "spiri/ku-kphp",
+    "description": "kraski",
+    "autoload": {
+        "psr-4": {
+            "Spiri\\KuKphp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "loktak",
+            "email": "spirinars@ya.ru"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^6.0"
+    }
+}

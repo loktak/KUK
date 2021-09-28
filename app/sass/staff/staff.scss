@@ -35,18 +35,16 @@
     text-transform: uppercase;
     color: white;
     background-color: $main-color;
-    border-radius: 15px;
-    border: 1px solid $main-color;
+    border-radius: 30px;
+    
     &:hover,
     &:focus {
+        
+        color: $sub-color;
         outline: none;
-        color: $main-color;
-        background-color: white;
     }
     &:active {
-        color: white;
-        border: 1px solid lightgray;
-        background-color: lightgray;
+        opacity: 0.7;
     }
 }
 
